@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color:palegoldenrod;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 5px;
+  justify-content: center;
+  
+
+  text-align: center;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color:palevioletred;
+ 
+}
